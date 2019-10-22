@@ -52,7 +52,7 @@ f = interp1d(x, y, kind='nearest')
 
 intrx = np.linspace(0, 10, num=101, endpoint=True)
 
-plt.plot(x, y, 'o', intrx, [f(xi) for xi in intrx], '--')
+plt.plot(x, y, 'o', intrx, [f(xi) for xi in intrx], ':')
 plt.legend(['data', 'nearest'], loc='best')
 plt.savefig("Nearest-neighbor_by_scipy.png", dpi=300)
 plt.show()
