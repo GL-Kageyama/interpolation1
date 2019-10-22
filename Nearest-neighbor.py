@@ -40,7 +40,7 @@ plt.savefig("Nearest-neighbor_by_Basic.png", dpi=300)
 plt.show()
 
 #==================================================================
-# Pattern 2 : Brent's method using Scipy's API
+# Pattern 2 : Nearest-neighbor method using Scipy's API
 #==================================================================
 
 from scipy.interpolate import interp1d
